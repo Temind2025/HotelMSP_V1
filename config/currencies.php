@@ -2,6 +2,7 @@
 return [ 
     'CURRENCY_LIST'=>[
         ["code"=>"ALL", "symbol"=>"", "country"=>"Albania Lek"],
+        ["code"=>"AED", "symbol"=>"د.إ", "country"=>"UAE Dirham"],
         ["code"=>"AFN", "symbol"=>"", "country"=>"Afghanistan Afghani"],
         ["code"=>"ARS", "symbol"=>"", "country"=>"Argentina Peso"],
         ["code"=>"AWG", "symbol"=>"", "country"=>"Aruba Guilder"],
