@@ -362,13 +362,13 @@
                     </tr>
                     @if($foodAmountGst>0)
                     <tr>
-                        <th class="text-right" colspan="6">GST ({{$gstPercFood}} %)</th>
+                        <th class="text-right" colspan="6">VAT ({{$gstPercFood}} %)</th>
                         <td class="text-right">{{ numberFormat($foodAmountGst) }}</td>
                     </tr>
                     @endif
                         @if($foodAmountCGst>0)
                     <tr>
-                        <th class="text-right" colspan="6">CGST ({{$cgstPercFood}} %)</th>
+                        <th class="text-right" colspan="6">VATc ({{$cgstPercFood}} %)</th>
                         <td class="text-right">{{ numberFormat($foodAmountCGst) }}</td>
                     </tr>
                     @endif
@@ -399,11 +399,11 @@
                                         <td>{{$settings['bank_acc_name']}}</td>
                                     </tr>
                                     <tr>
-                                        <td>IFSC Code:</td>
+                                        <td>SWIFT Code:</td>
                                         <td>{{$settings['bank_ifsc_code']}}</td>
                                     </tr>
                                     <tr>
-                                        <td>Account No.:</td>
+                                        <td>IBAN.:</td>
                                         <td>{{$settings['bank_acc_num']}}</td>
                                     </tr>
                                     <tr>
@@ -427,6 +427,7 @@
                      <tr>
                         <th colspan="2">Terms and Conditions</th>
                         <td class="" colspan="5">The Hotel is obliged to avail the rooms that the guest has reserved in accordance with these Terms and Conditions and to provide the agreed services.</td>
+                        
                     </tr>
                     <tr>
                         <td class="text-center" colspan="7">

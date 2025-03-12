@@ -213,7 +213,7 @@ return [
             'hi'=>'साइट सेटिंग्स',
         ],
         'heading_gst_settings'=>[
-            'en'=>'GST Settings',
+            'en'=>'VAT Settings',
             'hi'=>'जीएसटी सेटिंग्स',
         ],
         'heading_smsapi_settings'=>[
@@ -683,35 +683,35 @@ return [
             'hi'=>'होटल का पता',
         ],
         'txt_gstin'=>[
-            'en'=>'GSTIN',
+            'en'=>'VATIN',
             'hi'=>'जीएसटीआईएन',
         ],
         'txt_room_rent_gst'=>[
-            'en'=>'Room Rent GST',
+            'en'=>'Room Rent VAT',
             'hi'=>'कमरे का किराया जी.एस.टी.',
         ],
         'txt_food_gst'=>[
-            'en'=>'Food GST',
+            'en'=>'Food VAT',
             'hi'=>'खाद्य जी.एस.टी.',
         ],
         'txt_gst'=>[
-            'en'=>'GST',
+            'en'=>'VAT',
             'hi'=>'जी.एस.टी.',
         ],
         'txt_sgst_'=>[
-            'en'=>'SGST',
+            'en'=>'VATs',
             'hi'=>'एस.जी.एस.टी',
         ],
         'txt_sgst'=>[
-            'en'=>'GST',
+            'en'=>'VATs',
             'hi'=>'जी.एस.टी',
         ],
         'txt_cgst'=>[
-            'en'=>'CGST',
+            'en'=>'VATc',
             'hi'=>'सी.जी.एस.टी',
         ],
         'txt_gst_apply'=>[
-            'en'=>'GST Apply',
+            'en'=>'VAT Apply',
             'hi'=>'जीएसटी लागू',
         ],
         'txt_category_name'=>[
@@ -1183,11 +1183,11 @@ return [
             'hi'=>'परिचय - पत्र संख्या',
         ],
         'txt_company_gst_num'=>[
-            'en'=>'Company GST No.',
+            'en'=>'Company VAT No.',
             'hi'=>'कंपनी जीएसटी नं.',
         ],
         'txt_gst_num'=>[
-            'en'=>'GST No.',
+            'en'=>'VAT No.',
             'hi'=>'जीएसटी नं.',
         ],
         'txt_persons'=>[

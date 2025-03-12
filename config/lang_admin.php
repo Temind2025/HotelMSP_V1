@@ -334,7 +334,7 @@ return [
             'hi'=>'कर',
         ],
         'txt_laundry_gst'=>[
-            'en'=>'Laundry GST',
+            'en'=>'Laundry VAT',
             'hi'=>'लॉन्ड्री जी.एस.टी.',
         ],
         'btn_complete_order'=>[
