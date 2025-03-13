@@ -330,7 +330,7 @@
                     <tr>
                         <th class="text-center" width="2%">{{lang_trans('txt_sno')}}.</th>
                         <th class="text-center" width="20%">Item Details</th>
-                        <th class="text-center" width="5%">HSN/SAC</th>
+                        <th class="text-center" width="5%">HSN/SAC/RHN</th>
                         <th class="text-center" width="5%">Date</th>
                         <th class="text-center" width="5%">Item Qty</th>
                         <th class="text-center" width="5%">Item Price ({{getCurrencySymbol()}})</th>
