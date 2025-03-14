@@ -234,11 +234,11 @@
                     </tr>
                     @if($roomAmountGst>0)
                     <tr>
-                        <th class="text-right" colspan="5">GST ({{$gstPerc}} %)</th>
+                        <th class="text-right" colspan="5">VAT ({{$gstPerc}} %)</th>
                         <td class="text-right">{{ numberFormat($roomAmountGst) }}</td>
                     </tr>
                     <tr>
-                        <th class="text-right" colspan="5">CGST ({{$cgstPerc}} %)</th>
+                        <th class="text-right" colspan="5">Additional Charges ({{$cgstPerc}} %)</th>
                         <td class="text-right">{{ numberFormat($roomAmountCGst) }}</td>
                     </tr>
                     @endif
@@ -309,7 +309,10 @@
                     </tr>
                     <tr>
                         <th colspan="2">Terms and Conditions</th>
-                        <td colspan="4">The Hotel is obliged to avail the rooms that the guest has reserved in accordance with these Terms and Conditions and to provide the agreed services.</td>
+                        <td colspan="4" style="text-align:center;">All charges are inclusive of 10% Service charge, 5% Municipality Fee & 5% Tourism Fee
+                            <br/>All the above charges are subject to 5% VAT
+                        </td>
+                        
                     </tr>
                     <tr>
                         <th class="text-center" colspan="6">

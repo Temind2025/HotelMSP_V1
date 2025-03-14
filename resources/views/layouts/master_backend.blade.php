@@ -58,7 +58,7 @@
                     <div class="left_col scroll-view">
                         <div class="navbar nav_title">
                             <a class="site_title" href="#">
-                                <i class="fa fa-paw">
+                                <i class="fa fa-h-square">
                                 </i>
                                 <span>
                                     {{getSettings('site_page_title')}}

@@ -40,7 +40,7 @@
                             <br/>
                             <div>
                                 <h1>
-                                    <i class="fa fa-paw">
+                                    <i class="fa fa-h-square">
                                     </i>
                                     {{getSettings('hotel_name')}}
                                 </h1>
